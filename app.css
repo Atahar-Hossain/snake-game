@@ -23,8 +23,13 @@ body {
 	padding: 20px 30px;
 	color: white;
 }
-.play-board{
-    height: 100%;
-    width: 100%;
-    background-color: #1f2838;
+.play-board {
+	height: 100%;
+	width: 100%;
+	background-color: #1f2838;
+	display: grid;
+	grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+}
+.play-board .food {
+	background-color: rgb(255, 204, 0);
 }
